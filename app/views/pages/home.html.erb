@@ -1,2 +1,30 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="content">
+  <div class="first-text">
+    <h3><span style="background-color:#7CF7D7;">Be a Croco</span></h3>
+
+  </div>
+  <div class="animation">
+    <div class="coffee">
+      <%= link_to root_path, class: "coffee" do %>
+        <%= image_tag "Coffee.png", height: 400 %>
+      <% end %>
+    </div>
+    <div class="rotate">
+      <div class="croco">
+        <%= link_to root_path, class: "croco" do %>
+          <%= image_tag "croco2.png", height: 400 %>
+        <% end %>
+      </div>
+
+    </div>
+  </div>
+  <div class="second-text">
+    <h3><span style="background-color:#7CF7D7;">Loading ...</span></h3>
+  </div>
+</div>
+
+
+
+<div class="loader"></div>
+
+

@@ -102,4 +102,10 @@
     0% { transform:rotate(360deg); }
 }
 
-
+.external-link a {
+  position: absolute;
+    top: -59px;
+    left: 0px;
+    width: 600px;
+    height: 500px;
+}

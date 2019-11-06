@@ -19,8 +19,8 @@
 // }
 
 .content {
-  background-color: #F7F7F7;
-  margin-top: 60px;
+  background-color: #0B335B;
+  // margin-top: 60px;
   text-align: center;
 }
 
@@ -36,78 +36,79 @@
 
 
 .animation {
-  height: 445px;
-  margin-left: 28%;
+  // height: 400px;
+  width:  auto;
+  margin-left: 0%;
   font-size: 25px;
   font-weight: lighter;
   color: #4a5b71;
   margin-bottom: 30px;
-  position: relative;
+  // position: center;
 }
 
-.coffee {
-  position: absolute;
-  top: 20px;
-}
+// .coffee {
+//   position: absolute;
+//   top: 20px;
+// }
 
-.croco {
-  position: absolute;
-    top: -59px;
-    left: -41px;
-}
+// .croco {
+//   position: absolute;
+//     top: -59px;
+//     left: -41px;
+// }
 
-.croco img {
-    height: 300px;
-}
+// .croco img {
+//     height: 300px;
+// }
 
-.rotate {
-  position: absolute;
-  top: 161px;
-    left: 204px;
-    margin: 20px;
-    width: 100px;
-    height: 100px;
-    -webkit-animation-name: spin;
-    -webkit-animation-duration: 4000ms;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    -moz-animation-name: spin;
-    -moz-animation-duration: 4000ms;
-    -moz-animation-iteration-count: infinite;
-    -moz-animation-timing-function: linear;
-    -ms-animation-name: spin;
-    -ms-animation-duration: 4000ms;
-    -ms-animation-iteration-count: infinite;
-    -ms-animation-timing-function: linear;
+// .rotate {
+//   position: absolute;
+//   top: 161px;
+//     left: 204px;
+//     margin: 20px;
+//     width: 100px;
+//     height: 100px;
+//     -webkit-animation-name: spin;
+//     -webkit-animation-duration: 4000ms;
+//     -webkit-animation-iteration-count: infinite;
+//     -webkit-animation-timing-function: linear;
+//     -moz-animation-name: spin;
+//     -moz-animation-duration: 4000ms;
+//     -moz-animation-iteration-count: infinite;
+//     -moz-animation-timing-function: linear;
+//     -ms-animation-name: spin;
+//     -ms-animation-duration: 4000ms;
+//     -ms-animation-iteration-count: infinite;
+//     -ms-animation-timing-function: linear;
 
-    animation-name: spin;
-    animation-duration: 4000ms;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-@-ms-keyframes spin {
-    100% { -ms-transform: rotate(0deg); }
-    0% { -ms-transform: rotate(360deg); }
-}
-@-moz-keyframes spin {
-    100% { -moz-transform: rotate(0deg); }
-    0% { -moz-transform: rotate(360deg); }
-}
-@-webkit-keyframes spin {
-    100% { -webkit-transform: rotate(0deg); }
-    0% { -webkit-transform: rotate(360deg); }
-}
-@keyframes spin {
-    100% { transform:rotate(0deg); }
-    0% { transform:rotate(360deg); }
-}
+//     animation-name: spin;
+//     animation-duration: 4000ms;
+//     animation-iteration-count: infinite;
+//     animation-timing-function: linear;
+// }
+// @-ms-keyframes spin {
+//     100% { -ms-transform: rotate(0deg); }
+//     0% { -ms-transform: rotate(360deg); }
+// }
+// @-moz-keyframes spin {
+//     100% { -moz-transform: rotate(0deg); }
+//     0% { -moz-transform: rotate(360deg); }
+// }
+// @-webkit-keyframes spin {
+//     100% { -webkit-transform: rotate(0deg); }
+//     0% { -webkit-transform: rotate(360deg); }
+// }
+// @keyframes spin {
+//     100% { transform:rotate(0deg); }
+//     0% { transform:rotate(360deg); }
+// }
 
 .external-link a {
   position: absolute;
     top: -59px;
     left: 0px;
-    width: 600px;
-    height: 500px;
+    width: 2500px;
+    height: 2500px;
 }
 
 .contentPost {
